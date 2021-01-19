@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "noImplicitReturns": true,
+    "strict": true,
+    "sourceMap": true,
+    "target": "ESNext",
+  },
+  "compileOnSave": true,
+  "include": ["src"]
+}
