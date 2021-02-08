@@ -5,6 +5,8 @@
     "strict": true,
     "sourceMap": true,
     "target": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
   "compileOnSave": true,
   "include": ["src"]
