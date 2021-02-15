@@ -31,20 +31,6 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^26.4.4"
   },
-  "jest": {
-    "testEnvironment": "node",
-    "transform": {
-      "^.+\\.[t|j]sx?$": "ts-jest"
-    },
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
-  },
   "prettier": {
     "semi": false,
     "trailingComma": "es5"
