@@ -17,7 +17,7 @@ export const recordAttendance = (
     : lowermostCell.getNextDataCell(SpreadsheetApp.Direction.UP).getRow()
 
   // 日付と勤怠を入力する
-  const attendanceData = [yyyymmdd, type]
+  const attendanceData = [[yyyymmdd, type]]
   // @ts-ignore @types/google-apps-script が間違っているっぽい?
   sheet.getRange(lastRow + 1, 1, 1, 2).setValues(attendanceData)
 }
